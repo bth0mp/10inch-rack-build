@@ -1,0 +1,273 @@
+# 🖥️ 10-Inch Mini Rack Homelab Build
+
+A fully documented 10-inch homelab rack housing four Dell OptiPlex Micro servers, a Synology NAS, Raspberry Pi status display, PoE switch, and PDU. Clean cable management with a keystone patch panel and colour-coded cabling throughout.
+
+---
+
+## 📦 Hardware Overview
+
+### In the Rack
+
+| Device | Role | Switch |
+|---|---|---|
+| Dell OptiPlex 7070 Micro (i5-9500T) | JANET — main OpenClaw host | KeepLiNK |
+| Dell OptiPlex 3060 Micro | Homelab server | KeepLiNK |
+| Dell OptiPlex 3050 Micro ×2 | Homelab servers | KeepLiNK |
+| Synology DS1019+ (5-bay, ~30TB) | NAS | KeepLiNK |
+| Raspberry Pi 4B 2GB + Wisecoco 7.84" bar display | Status panel (top of rack) | KeepLiNK |
+| KeepLiNK 10-Port PoE Switch (8×PoE + 2×uplink) | In-rack switching | — |
+| PDU 10-inch rack mount (4× universal outlets) | Rack power | — |
+
+### On the Desk (beside rack)
+
+| Device | Role |
+|---|---|
+| GoodTop 16-Port 2.5G Switch (2× 10G SFP+) | Core switch — too wide for 10-inch rack |
+| Starlink Router | Internet uplink |
+| HADES (Dell Precision 7910, dual Xeon, 384GB RAM) | Hyper-V host — on KeepLiNK for NAS proximity |
+| Laptop, TV, PS5, Chromecast | On GoodTop via existing cables |
+
+---
+
+## 🏗️ Rack Design
+
+**Rack:** [KWS Rack V2 — Heavy Duty 10-Inch Homelab Rack](https://makerworld.com/en/models/2139130-kws-rack-v-2-heavy-duty-10-inch-homelab-rack) (3D printed)
+
+**OptiPlex mounts:** [Lenovo Tiny Vertical Holder for DeskPi 10-Inch Rack](https://makerworld.com/en/models/1216152-lenovo-tiny-vertical-holder-for-deskpi-10-rack) (3D printed — compatible with Dell OptiPlex Micro)
+
+### 10-Inch Rack Specs
+- Usable internal width: ~220mm (~210mm safe with tolerance)
+- Rail hole spacing: 236.5mm
+- Standard 1U height: 44.45mm
+
+### OptiPlex Holder Compatibility
+| Dimension | Lenovo ThinkCentre Tiny | Dell OptiPlex Micro |
+|---|---|---|
+| Height | 183mm | 183mm ✅ |
+| Depth | 179mm | 178mm ✅ |
+| Thickness | 34.5mm | 36mm (~1.5mm diff) ✅ |
+
+> ⚠️ Print one first and test fit before printing all four.
+
+---
+
+## 🌐 Network Architecture
+
+```
+Starlink Router
+      │
+      ▼
+GoodTop 16-Port 2.5G (desk)
+  ├── Laptop          (existing cable)
+  ├── TV              (existing cable)
+  ├── PS5             (existing cable)
+  ├── Chromecast      (existing cable)
+  └── uplink ──────────────────────────┐
+                                       │
+                              KeepLiNK PoE Switch (rack)
+                                  ├── OptiPlex 7070
+                                  ├── OptiPlex 3060
+                                  ├── OptiPlex 3050 #1
+                                  ├── OptiPlex 3050 #2
+                                  ├── Synology DS1019+
+                                  ├── Raspberry Pi 4
+                                  ├── HADES
+                                  └── [PoE 8 — spare]
+```
+
+**Laptop → Synology:** Even though the laptop is on GoodTop and the NAS is on KeepLiNK, they route through the uplink transparently. Full 1G speed, no configuration needed.
+
+### KeepLiNK Port Map
+
+| Port | Device | Notes |
+|---|---|---|
+| PoE 1 | OptiPlex 7070 | |
+| PoE 2 | OptiPlex 3060 | |
+| PoE 3 | OptiPlex 3050 #1 | |
+| PoE 4 | OptiPlex 3050 #2 | |
+| PoE 5 | Synology DS1019+ | Start with 1 port; add 2nd for link agg later |
+| PoE 6 | Raspberry Pi 4 | |
+| PoE 7 | HADES | Existing long cable via patch panel keystone |
+| PoE 8 | **SPARE** | Reserved for Synology 2nd port |
+| Uplink 1 | GoodTop | Core uplink |
+| Uplink 2 | **SPARE** | |
+
+---
+
+## 🔌 Cabling Plan
+
+Cabling uses a **keystone patch panel** between the switch and devices for a clean, professional look.
+
+```
+[KeepLiNK port] ──0.25m purple──▶ [Keystone front | Keystone back] ──0.5m──▶ [Device]
+```
+
+### Front Side (switch → keystone) — ESSCable 0.25m purple
+| Connection | Cable |
+|---|---|
+| KeepLiNK → keystone (OptiPlex 7070) | 0.25m purple |
+| KeepLiNK → keystone (OptiPlex 3060) | 0.25m purple |
+| KeepLiNK → keystone (OptiPlex 3050 #1) | 0.25m purple |
+| KeepLiNK → keystone (OptiPlex 3050 #2) | 0.25m purple |
+| KeepLiNK → keystone (Synology) | 0.25m purple |
+| KeepLiNK → keystone (Pi) | 0.25m purple |
+| KeepLiNK → keystone (HADES) | 0.25m purple |
+| KeepLiNK uplink → GoodTop | 0.25m purple (direct, no keystone) |
+
+**Ordered:** 10× ESSCable ERT-600-HV (8 used, 2 spare) ✅
+
+### Back Side (keystone → device) — Vention 0.5m coloured
+| Connection | Cable |
+|---|---|
+| Keystone → OptiPlex 7070 | 0.5m |
+| Keystone → OptiPlex 3060 | 0.5m |
+| Keystone → OptiPlex 3050 #1 | 0.5m |
+| Keystone → OptiPlex 3050 #2 | 0.5m |
+| Keystone → Synology | 0.5m |
+| Keystone → Pi | 0.5m |
+| Keystone → HADES | Existing long cable ✅ |
+
+**Keystones:** 12× ZoeRax CAT6A STP (7 used, 5 spare) ✅
+
+---
+
+## ⚡ Power Plan
+
+| Device | Power Method |
+|---|---|
+| OptiPlex 7070/3060/3050 ×4 | 65W USB-C PD charger → KYMISON 4.5×3.0mm adapter → 0.25m Toocki cable |
+| Synology DS1019+ | Own power brick |
+| KeepLiNK switch | Own UK plug |
+| Raspberry Pi 4 | Meanwell 5V PSU (from bundle) via USB-C |
+| Wisecoco display board | 65W USB-C charger → USB-C to Micro-USB |
+
+> ⚠️ OptiPlex 7070 technically needs 90W — 65W will trigger a boot warning but usually works.
+
+### Idle Power Estimate
+
+| Device | Idle Draw |
+|---|---|
+| OptiPlex 7070 | ~13W |
+| OptiPlex 3060 | ~6W |
+| OptiPlex 3050 ×2 | ~20W |
+| Synology DS1019+ (5 drives) | ~30W |
+| Raspberry Pi 4 | ~5W |
+| KeepLiNK switch | ~10W |
+| **Total** | **~84W** |
+
+~$88/year at US average electricity rates.
+
+---
+
+## 📺 Status Display (Raspberry Pi + Wisecoco 7.84" Bar LCD)
+
+**Display:** Wisecoco 7.84" 1280×400 MIPI bar LCD with external driver board
+
+**Connection:**
+```
+Pi 4 Micro-HDMI ──0.3m──▶ Mini-HDMI (driver board)
+Driver board Micro-USB ──▶ USB-C to Micro-USB ──▶ 65W charger
+Pi USB-C power ──▶ Meanwell 5V PSU
+```
+
+**Display config** (`/boot/config.txt`):
+```ini
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt=1280 400 60 6 0 0 0
+```
+
+**Software:** Chromium in kiosk mode → Homarr dashboard (already running on hades-vm)
+```bash
+chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
+```
+
+---
+
+## 🛒 Purchase List
+
+> All prices in USD. GBP converted at $1.3368 (15 Mar 2026 rate).
+
+### Networking & Rack
+
+| Item | Link | Price |
+|---|---|---|
+| KeepLiNK 10-Port PoE Switch (UK plug) | [AliExpress](https://www.aliexpress.com) | $34.11 |
+| PDU 10-inch Rack Mount (4× universal, UK) | [AliExpress](https://www.aliexpress.com) | $41.93 |
+| ZoeRax CAT6A STP Keystone Couplers ×12 | [AliExpress](https://www.aliexpress.com) | $23.64 |
+| ESSCable ERT-600-HV 0.25m Purple CAT6 ×10 | [Broadband Buyer](https://www.broadbandbuyer.com/products/38577-esscable-ert-600-hv-10x/) | $14.30 |
+| VEnTIOn CAT6 Coloured Ethernet Cables | [AliExpress](https://www.aliexpress.com) | $7.34 |
+
+### OptiPlex Power
+
+| Item | Link | Price |
+|---|---|---|
+| KYMISON USB-C to Dell 4.5×3.0mm Adapter ×4 | [AliExpress](https://www.aliexpress.com) | $9.20 |
+| Toocki USB-C to USB-C 0.25m Black ×4 | [AliExpress](https://www.aliexpress.com) | $6.20 |
+
+### Display & Raspberry Pi
+
+| Item | Link | Price |
+|---|---|---|
+| Wisecoco 7.84" 1280×400 Bar LCD (MIPI) | [AliExpress](https://www.aliexpress.com) | $54.00 |
+| Mini HDMI to Micro HDMI Cable 0.3m | [AliExpress](https://www.aliexpress.com) | $7.46 |
+| USB-C to Micro-USB Cable 1m | [AliExpress](https://www.aliexpress.com) | $4.41 |
+| Toocki USB-C to USB-C 1m 60W | [AliExpress](https://www.aliexpress.com) | $1.98 |
+| 0.91" OLED SSD1306 I2C Display | [AliExpress](https://www.aliexpress.com) | $3.07 |
+| Raspberry Pi 4B 2GB + SD + DIN Rail + PSU | [eBay](https://www.ebay.co.uk/itm/358067141087) | $69.20 |
+
+### Tools & Hardware
+
+| Item | Link | Price |
+|---|---|---|
+| 43pc Magnetic Screwdriver Set | [AliExpress](https://www.aliexpress.com) | $33.10 |
+| Heat Set Thread Insert Kit | [AliExpress](https://www.aliexpress.com) | $11.16 |
+| M6 Nylon Lock Nuts ×100 | [AliExpress](https://www.aliexpress.com) | $8.62 |
+| Velcro Cable Organiser 5M ×2 | [AliExpress](https://www.aliexpress.com) | $3.32 |
+| 10×5mm Round Magnets ×200 | [AliExpress](https://www.aliexpress.com) | $32.01 |
+| 6×2mm Neodymium Magnets ×50 | [AliExpress](https://www.aliexpress.com) | $2.83 |
+
+### Total Spent
+
+| Category | Amount |
+|---|---|
+| AliExpress orders | $284.38 |
+| ESSCable (Broadband Buyer) | $14.30 |
+| Raspberry Pi bundle (eBay) | $69.20 |
+| **Grand Total** | **~$367.88 USD** |
+
+> ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
+
+---
+
+## ✅ Still To Do
+
+- [ ] Order 4× 65W USB-C PD GaN chargers for OptiPlexes
+- [ ] Order 3 more Vention 0.5m patch cables (back-side device connections)
+- [ ] Print/buy 1U keystone patch panel (10-inch)
+- [ ] Measure Synology DS1019+ against rack internal width (230mm vs ~220mm usable)
+- [ ] Print one OptiPlex vertical holder, test fit, then print ×3 more
+
+---
+
+## 📐 Rack Layout (Planned)
+
+```
+┌─────────────────────────────┐
+│  [Pi + Wisecoco Bar Display] │  ← Top / display
+├─────────────────────────────┤
+│  KeepLiNK PoE Switch        │  ← U1 (with keystone patch panel)
+├─────────────────────────────┤
+│  PDU                        │  ← U2
+├─────────────────────────────┤
+│  OptiPlex ×2 (vertical)     │  ← U3
+├─────────────────────────────┤
+│  OptiPlex ×2 (vertical)     │  ← U4
+├─────────────────────────────┤
+│  Synology DS1019+           │  ← Base (if it fits — measure first ⚠️)
+└─────────────────────────────┘
+```
+
+---
+
+*Documentation maintained by Janet 🐟 — last updated 15 March 2026*
