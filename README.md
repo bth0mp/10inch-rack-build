@@ -163,6 +163,21 @@ Cabling uses a **keystone patch panel** between the switch and devices for a cle
 
 ---
 
+## 🖥️ Rack Control Display Module (Top of Rack — 2U)
+
+**Model:** [2U Rack Control Display Module for KWS 10-inch Rack](https://makerworld.com/en/models/2233953-2u-rack-control-display-module) (3D printed)
+
+Houses the Raspberry Pi 4B, Wisecoco bar display, and 2× keystone panel ports in a clean 2U front panel.
+
+**Keystone slots populated with:**
+- USB-A 3.0 pass-through (×2 ordered)
+- USB-C 3.1 pass-through (×2 ordered)
+- 4K HDMI pass-through (×1 ordered)
+
+**Internal cable:** USB 2.0 Male-to-Male 0.25m for internal connections.
+
+---
+
 ## 📺 Status Display (Raspberry Pi + Wisecoco 7.84" Bar LCD)
 
 **Display:** Wisecoco 7.84" 1280×400 MIPI bar LCD with external driver board
@@ -224,6 +239,10 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | Toocki USB-C to USB-C 1m 60W | [AliExpress](https://www.aliexpress.com/item/1005008152768741.html) | $1.98 |
 | 0.91" OLED SSD1306 I2C Display | [AliExpress](https://www.aliexpress.com/item/32879702750.html) | $3.07 |
 | Raspberry Pi 4B 2GB + SD + DIN Rail + PSU | [eBay](https://www.ebay.co.uk/itm/358067141087) | $69.20 |
+| USB 2.0 Male-to-Male Cable 0.25m (internal) | [AliExpress](https://www.aliexpress.com/item/1005001560424564.html) | TBD |
+| USB-C 3.1 Keystone Panel Insert ×2 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | TBD |
+| USB-A 3.0 Keystone Panel Insert ×2 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | TBD |
+| 4K HDMI Keystone Panel Insert ×1 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | TBD |
 
 ### Tools & Hardware
 
@@ -252,6 +271,7 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | Raspberry Pi bundle (eBay) | $69.20 |
 | UGREEN chargers (Amazon UK) | $128.89 |
 | Screws & bolts (×3 orders) | TBD |
+| Keystone panel inserts + USB cable | TBD |
 | **Grand Total** | **~$575.00 USD + TBD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
@@ -275,7 +295,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 ```
           FRONT                          BACK
 ┌───────────────────────────┐   ┌───────────────────────────┐
-│   Raspberry Pi + Display  │   │                           │
+│  2U Control Module        │   │                           │
+│  Pi + Display + USB/HDMI  │   │                           │
 ├───────────────────────────┤   │       [4U empty]          │
 │   KeepLiNK PoE Switch     │   │                           │
 ├───────────────────────────┤   ├───────────────────────────┤
@@ -291,7 +312,7 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
                                 └───────────────────────────┘
 ```
 
-**Front (bottom → top):** NAS → OptiPlexes ×4 (vertical, 2 per U) → Keystone panel → KeepLiNK switch → Pi display
+**Front (bottom → top):** NAS → OptiPlexes ×4 (vertical, 2 per U) → Keystone panel → KeepLiNK switch → 2U Control Module (Pi + display + USB/HDMI keystones)
 
 **Back (bottom → top):** PDU #1 (OptiPlex power) → 2U empty → PDU #2 (switch/NAS/Pi power) → 4U empty
 
