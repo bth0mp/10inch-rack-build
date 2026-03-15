@@ -228,11 +228,12 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 | Item | Link | Price |
 |---|---|---|
-| 43pc Magnetic Screwdriver Set | [AliExpress](https://www.aliexpress.com) | $33.10 |
+| 43pc Magnetic Screwdriver Set | [AliExpress](https://www.aliexpress.com/item/1005007494840464.html) | $33.10 |
 | Heat Set Thread Insert Kit (soldering iron kit) | [AliExpress](https://www.aliexpress.com/item/1005007550647561.html) | $11.16 |
-| Brass Hot Melt Insert Knurled Nuts M2–M6 | [AliExpress](https://www.aliexpress.com/item/1005003582355741.html) | TBD |
-| Phillips Truss Head Screws M2–M8 | [AliExpress](https://www.aliexpress.com/item/1005004681098987.html) | TBD |
-| Hex Socket Cap Head Allen Bolts M2–M8 | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | TBD |
+| Brass Hot Melt Insert Nuts M5 ×30pcs ×6 bags | [AliExpress](https://www.aliexpress.com/item/1005003582355741.html) | $19.86 |
+| Phillips Truss Head Screws M5×10 (20pcs) | [AliExpress](https://www.aliexpress.com/item/1005004681098987.html) | TBD |
+| Hex Socket Cap Head Allen Bolts M6×10mm (20pcs) | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | TBD |
+| Hex Socket Cap Head Allen Bolts M6×8mm (20pcs) | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | TBD |
 | M6 Nylon Lock Nuts ×100 | [AliExpress](https://www.aliexpress.com/item/1005006565106519.html) | $8.62 |
 | Velcro Cable Organiser 5M ×2 | [AliExpress](https://www.aliexpress.com/item/1005008165192843.html) | $3.32 |
 | 10×5mm Round Magnets ×200 | [AliExpress](https://www.aliexpress.com/item/1005009558516455.html) | $32.01 |
@@ -244,11 +245,12 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 |---|---|
 | AliExpress orders | $284.38 |
 | 2nd PDU (AliExpress) | $41.93 |
+| Brass insert nuts ×6 bags | $19.86 |
 | ESSCable (Broadband Buyer) | $14.30 |
 | Raspberry Pi bundle (eBay) | $69.20 |
 | UGREEN chargers (Amazon UK) | $128.89 |
-| New fastener hardware | TBD |
-| **Grand Total** | **~$538.70 USD + TBD** |
+| Screws & bolts (×3 orders) | TBD |
+| **Grand Total** | **~$558.56 USD + TBD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
@@ -286,4 +288,4 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 ---
 
-*Documentation maintained by Janet 🐟 — last updated 15 March 2026 16:32 GMT*
+*Documentation maintained by Janet 🐟 — last updated 15 March 2026 16:43 GMT*
