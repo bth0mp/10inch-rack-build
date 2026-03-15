@@ -196,11 +196,12 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 | Item | Link | Price |
 |---|---|---|
-| KeepLiNK 10-Port PoE Switch (UK plug) | [AliExpress](https://www.aliexpress.com) | $34.11 |
-| PDU 10-inch Rack Mount (4× universal, UK) | [AliExpress](https://www.aliexpress.com) | $41.93 |
-| ZoeRax CAT6A STP Keystone Couplers ×12 | [AliExpress](https://www.aliexpress.com) | $23.64 |
+| KeepLiNK 10-Port PoE Switch (UK plug) | [AliExpress](https://www.aliexpress.com/item/1005007045849781.html) | $34.11 |
+| PDU 10-inch Rack Mount #1 — OptiPlex power (4× universal, UK) | [AliExpress](https://www.aliexpress.com/item/1005011824742917.html) | $41.93 |
+| PDU 10-inch Rack Mount #2 — Switch/NAS/Pi power (4× universal, UK) | [AliExpress](https://www.aliexpress.com/item/1005011824742917.html) | $41.93 |
+| ZoeRax CAT6A STP Keystone Couplers ×12 | [AliExpress](https://www.aliexpress.com/item/1005006532881465.html) | $23.64 |
 | ESSCable ERT-600-HV 0.25m Purple CAT6 ×10 | [Broadband Buyer](https://www.broadbandbuyer.com/products/38577-esscable-ert-600-hv-10x/) | $14.30 |
-| VEnTIOn CAT6 Coloured Ethernet Cables | [AliExpress](https://www.aliexpress.com) | $7.34 |
+| VEnTIOn CAT6 Coloured Ethernet Cables | [AliExpress](https://www.aliexpress.com/item/1005002524876303.html) | $7.34 |
 
 ### OptiPlex Power
 
@@ -209,18 +210,18 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | UGREEN Nexode 100W 4-Port GaN Charger ×1 | [Amazon UK](https://www.amazon.co.uk/dp/B091N7FVDL) | (see order) |
 | UGREEN Nexode 65W 3-Port GaN Charger ×3 | [Amazon UK](https://www.amazon.co.uk/dp/B0B7N4DX1Z) | (see order) |
 | UGREEN order total (Amazon, Order #204-8358283-3717925) | — | $128.89 |
-| KYMISON USB-C to Dell 4.5×3.0mm Adapter ×4 | [AliExpress](https://www.aliexpress.com) | $9.20 |
-| Toocki USB-C to USB-C 0.25m Black ×4 | [AliExpress](https://www.aliexpress.com) | $6.20 |
+| KYMISON USB-C to Dell 4.5×3.0mm Adapter ×4 | [AliExpress](https://www.aliexpress.com/item/1005001603542560.html) | $9.20 |
+| Toocki USB-C to USB-C 0.25m Black ×4 | [AliExpress](https://www.aliexpress.com/item/1005006844576361.html) | $6.20 |
 
 ### Display & Raspberry Pi
 
 | Item | Link | Price |
 |---|---|---|
-| Wisecoco 7.84" 1280×400 Bar LCD (MIPI) | [AliExpress](https://www.aliexpress.com) | $54.00 |
-| Mini HDMI to Micro HDMI Cable 0.3m | [AliExpress](https://www.aliexpress.com) | $7.46 |
-| USB-C to Micro-USB Cable 1m | [AliExpress](https://www.aliexpress.com) | $4.41 |
-| Toocki USB-C to USB-C 1m 60W | [AliExpress](https://www.aliexpress.com) | $1.98 |
-| 0.91" OLED SSD1306 I2C Display | [AliExpress](https://www.aliexpress.com) | $3.07 |
+| Wisecoco 7.84" 1280×400 Bar LCD (MIPI) | [AliExpress](https://www.aliexpress.com/item/1005004986951553.html) | $54.00 |
+| Mini HDMI to Micro HDMI Cable 0.3m | [AliExpress](https://www.aliexpress.com/item/1005009277513110.html) | $7.46 |
+| USB-C to Micro-USB Cable 1m | [AliExpress](https://www.aliexpress.com/item/1005006716758195.html) | $4.41 |
+| Toocki USB-C to USB-C 1m 60W | [AliExpress](https://www.aliexpress.com/item/1005008152768741.html) | $1.98 |
+| 0.91" OLED SSD1306 I2C Display | [AliExpress](https://www.aliexpress.com/item/32879702750.html) | $3.07 |
 | Raspberry Pi 4B 2GB + SD + DIN Rail + PSU | [eBay](https://www.ebay.co.uk/itm/358067141087) | $69.20 |
 
 ### Tools & Hardware
@@ -228,21 +229,26 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | Item | Link | Price |
 |---|---|---|
 | 43pc Magnetic Screwdriver Set | [AliExpress](https://www.aliexpress.com) | $33.10 |
-| Heat Set Thread Insert Kit | [AliExpress](https://www.aliexpress.com) | $11.16 |
-| M6 Nylon Lock Nuts ×100 | [AliExpress](https://www.aliexpress.com) | $8.62 |
-| Velcro Cable Organiser 5M ×2 | [AliExpress](https://www.aliexpress.com) | $3.32 |
-| 10×5mm Round Magnets ×200 | [AliExpress](https://www.aliexpress.com) | $32.01 |
-| 6×2mm Neodymium Magnets ×50 | [AliExpress](https://www.aliexpress.com) | $2.83 |
+| Heat Set Thread Insert Kit (soldering iron kit) | [AliExpress](https://www.aliexpress.com/item/1005007550647561.html) | $11.16 |
+| Brass Hot Melt Insert Knurled Nuts M2–M6 | [AliExpress](https://www.aliexpress.com/item/1005003582355741.html) | TBD |
+| Phillips Truss Head Screws M2–M8 | [AliExpress](https://www.aliexpress.com/item/1005004681098987.html) | TBD |
+| Hex Socket Cap Head Allen Bolts M2–M8 | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | TBD |
+| M6 Nylon Lock Nuts ×100 | [AliExpress](https://www.aliexpress.com/item/1005006565106519.html) | $8.62 |
+| Velcro Cable Organiser 5M ×2 | [AliExpress](https://www.aliexpress.com/item/1005008165192843.html) | $3.32 |
+| 10×5mm Round Magnets ×200 | [AliExpress](https://www.aliexpress.com/item/1005009558516455.html) | $32.01 |
+| 6×2mm Neodymium Magnets ×50 | [AliExpress](https://www.aliexpress.com/item/1005010158237241.html) | $2.83 |
 
 ### Total Spent
 
 | Category | Amount |
 |---|---|
 | AliExpress orders | $284.38 |
+| 2nd PDU (AliExpress) | $41.93 |
 | ESSCable (Broadband Buyer) | $14.30 |
 | Raspberry Pi bundle (eBay) | $69.20 |
 | UGREEN chargers (Amazon UK) | $128.89 |
-| **Grand Total** | **~$496.77 USD** |
+| New fastener hardware | TBD |
+| **Grand Total** | **~$538.70 USD + TBD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
@@ -280,4 +286,4 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 ---
 
-*Documentation maintained by Janet 🐟 — last updated 15 March 2026 16:12 GMT*
+*Documentation maintained by Janet 🐟 — last updated 15 March 2026 16:32 GMT*
