@@ -35,6 +35,8 @@ A fully documented 10-inch homelab rack housing four Dell OptiPlex Micro servers
 
 **OptiPlex mounts:** [Lenovo Tiny Vertical Holder for DeskPi 10-Inch Rack](https://makerworld.com/en/models/1216152-lenovo-tiny-vertical-holder-for-deskpi-10-rack) (3D printed — compatible with Dell OptiPlex Micro)
 
+**Keystone patch panel:** [Patch Keystones Panel 2–3U for 10-Inch KWS Rack](https://makerworld.com/en/models/2154991-patch-keystones-panel-2-3u-for-10-inch-kws-rack) (3D printed)
+
 ### 10-Inch Rack Specs
 - Usable internal width: ~220mm (~210mm safe with tolerance)
 - Rail hole spacing: 236.5mm
@@ -135,13 +137,15 @@ Cabling uses a **keystone patch panel** between the switch and devices for a cle
 
 | Device | Power Method |
 |---|---|
-| OptiPlex 7070/3060/3050 ×4 | 65W USB-C PD charger → KYMISON 4.5×3.0mm adapter → 0.25m Toocki cable |
+| OptiPlex 7070 | UGREEN Nexode 100W 4-Port GaN → KYMISON 4.5×3.0mm adapter → 0.25m Toocki cable |
+| OptiPlex 3060 | UGREEN Nexode 65W 3-Port GaN → KYMISON 4.5×3.0mm adapter → 0.25m Toocki cable |
+| OptiPlex 3050 ×2 | UGREEN Nexode 65W 3-Port GaN (×2) → KYMISON adapters → 0.25m Toocki cables |
 | Synology DS1019+ | Own power brick |
 | KeepLiNK switch | Own UK plug |
 | Raspberry Pi 4 | Meanwell 5V PSU (from bundle) via USB-C |
-| Wisecoco display board | 65W USB-C charger → USB-C to Micro-USB |
+| Wisecoco display board | Spare UGREEN 65W port → USB-C to Micro-USB |
 
-> ⚠️ OptiPlex 7070 technically needs 90W — 65W will trigger a boot warning but usually works.
+> ✅ OptiPlex 7070 covered by the 100W charger — no boot warning.
 
 ### Idle Power Estimate
 
@@ -202,6 +206,9 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 | Item | Link | Price |
 |---|---|---|
+| UGREEN Nexode 100W 4-Port GaN Charger ×1 | [Amazon UK](https://www.amazon.co.uk/dp/B091N7FVDL) | (see order) |
+| UGREEN Nexode 65W 3-Port GaN Charger ×3 | [Amazon UK](https://www.amazon.co.uk/dp/B0B7N4DX1Z) | (see order) |
+| UGREEN order total (Amazon, Order #204-8358283-3717925) | — | $128.89 |
 | KYMISON USB-C to Dell 4.5×3.0mm Adapter ×4 | [AliExpress](https://www.aliexpress.com) | $9.20 |
 | Toocki USB-C to USB-C 0.25m Black ×4 | [AliExpress](https://www.aliexpress.com) | $6.20 |
 
@@ -234,19 +241,22 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | AliExpress orders | $284.38 |
 | ESSCable (Broadband Buyer) | $14.30 |
 | Raspberry Pi bundle (eBay) | $69.20 |
-| **Grand Total** | **~$367.88 USD** |
+| UGREEN chargers (Amazon UK) | $128.89 |
+| **Grand Total** | **~$496.77 USD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
+
+> GBP converted at $1.3368 (15 Mar 2026)
 
 ---
 
 ## ✅ Still To Do
 
-- [ ] Order 4× 65W USB-C PD GaN chargers for OptiPlexes
 - [ ] Order 3 more Vention 0.5m patch cables (back-side device connections)
-- [ ] Print/buy 1U keystone patch panel (10-inch)
+- [ ] Print keystone patch panel: [2–3U for 10-inch KWS Rack](https://makerworld.com/en/models/2154991-patch-keystones-panel-2-3u-for-10-inch-kws-rack)
 - [ ] Measure Synology DS1019+ against rack internal width (230mm vs ~220mm usable)
 - [ ] Print one OptiPlex vertical holder, test fit, then print ×3 more
+- [x] ~~Order USB-C GaN chargers for OptiPlexes~~ ✅ UGREEN order placed
 
 ---
 
@@ -270,4 +280,4 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 ---
 
-*Documentation maintained by Janet 🐟 — last updated 15 March 2026*
+*Documentation maintained by Janet 🐟 — last updated 15 March 2026 16:12 GMT*
