@@ -271,20 +271,27 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 ## 📐 Rack Layout (Planned)
 
 ```
-┌─────────────────────────────┐
-│  [Pi + Wisecoco Bar Display] │  ← Top / display
-├─────────────────────────────┤
-│  KeepLiNK PoE Switch        │  ← U1 (with keystone patch panel)
-├─────────────────────────────┤
-│  PDU                        │  ← U2
-├─────────────────────────────┤
-│  OptiPlex ×2 (vertical)     │  ← U3
-├─────────────────────────────┤
-│  OptiPlex ×2 (vertical)     │  ← U4
-├─────────────────────────────┤
-│  Synology DS1019+           │  ← Base (if it fits — measure first ⚠️)
-└─────────────────────────────┘
+          FRONT                          BACK
+┌───────────────────────────┐   ┌───────────────────────────┐
+│   Raspberry Pi + Display  │   │                           │
+├───────────────────────────┤   │       [4U empty]          │
+│   KeepLiNK PoE Switch     │   │                           │
+├───────────────────────────┤   ├───────────────────────────┤
+│   Keystone Patch Panel    │   │      PDU #2 (Switch/NAS/  │
+├───────────────────────────┤   │           Pi power)       │
+│   OptiPlex ×2 (vertical)  │   ├───────────────────────────┤
+├───────────────────────────┤   │                           │
+│   OptiPlex ×2 (vertical)  │   │       [2U empty]          │
+├───────────────────────────┤   │                           │
+│   Synology DS1019+ ⚠️     │   ├───────────────────────────┤
+│   (measure fit first)     │   │    PDU #1 (OptiPlex       │
+└───────────────────────────┘   │         power)            │
+                                └───────────────────────────┘
 ```
+
+**Front (bottom → top):** NAS → OptiPlexes ×4 (vertical, 2 per U) → Keystone panel → KeepLiNK switch → Pi display
+
+**Back (bottom → top):** PDU #1 (OptiPlex power) → 2U empty → PDU #2 (switch/NAS/Pi power) → 4U empty
 
 ---
 
