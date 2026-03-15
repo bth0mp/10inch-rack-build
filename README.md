@@ -199,7 +199,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | KeepLiNK 10-Port PoE Switch (UK plug) | [AliExpress](https://www.aliexpress.com/item/1005007045849781.html) | $34.11 |
 | PDU 10-inch Rack Mount #1 — OptiPlex power (4× universal, UK) | [AliExpress](https://www.aliexpress.com/item/1005011824742917.html) | $41.93 |
 | PDU 10-inch Rack Mount #2 — Switch/NAS/Pi power (4× universal, UK) | [AliExpress](https://www.aliexpress.com/item/1005011824742917.html) | $41.93 |
-| ZoeRax CAT6A STP Keystone Couplers ×12 | [AliExpress](https://www.aliexpress.com/item/1005006532881465.html) | $23.64 |
+| ~~ZoeRax CAT6A STP Keystone Couplers ×12~~ | ~~[AliExpress](https://www.aliexpress.com/item/1005006532881465.html)~~ | ~~$23.64~~ CANCELED |
+| Linkwylan CAT6A STP Coloured Keystone Jacks ×12 (Violet, tool-free) | [AliExpress](https://www.aliexpress.com/item/1005005844843325.html) | $40.08 |
 | ESSCable ERT-600-HV 0.25m Purple CAT6 ×10 | [Broadband Buyer](https://www.broadbandbuyer.com/products/38577-esscable-ert-600-hv-10x/) | $14.30 |
 | VEnTIOn CAT6 Coloured Ethernet Cables | [AliExpress](https://www.aliexpress.com/item/1005002524876303.html) | $7.34 |
 
@@ -243,14 +244,15 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 | Category | Amount |
 |---|---|
-| AliExpress orders | $284.38 |
+| AliExpress orders (excl. swapped items) | $260.74 |
+| Linkwylan keystones ×12 (replaces ZoeRax) | $40.08 |
 | 2nd PDU (AliExpress) | $41.93 |
 | Brass insert nuts ×6 bags | $19.86 |
 | ESSCable (Broadband Buyer) | $14.30 |
 | Raspberry Pi bundle (eBay) | $69.20 |
 | UGREEN chargers (Amazon UK) | $128.89 |
 | Screws & bolts (×3 orders) | TBD |
-| **Grand Total** | **~$558.56 USD + TBD** |
+| **Grand Total** | **~$575.00 USD + TBD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
