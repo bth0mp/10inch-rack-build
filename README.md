@@ -239,10 +239,11 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | Toocki USB-C to USB-C 1m 60W | [AliExpress](https://www.aliexpress.com/item/1005008152768741.html) | $1.98 |
 | 0.91" OLED SSD1306 I2C Display | [AliExpress](https://www.aliexpress.com/item/32879702750.html) | $3.07 |
 | Raspberry Pi 4B 2GB + SD + DIN Rail + PSU | [eBay](https://www.ebay.co.uk/itm/358067141087) | $69.20 |
-| USB 2.0 Male-to-Male Cable 0.25m (internal) | [AliExpress](https://www.aliexpress.com/item/1005001560424564.html) | TBD |
-| USB-C 3.1 Keystone Panel Insert ×2 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | TBD |
-| USB-A 3.0 Keystone Panel Insert ×2 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | TBD |
-| 4K HDMI Keystone Panel Insert ×1 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | TBD |
+| Vention USB 2.0 Male-to-Male Cable 0.25m ×2 | [AliExpress](https://www.aliexpress.com/item/1005001560424564.html) | $3.47 |
+| USB-C 3.1 Keystone Panel Insert ×2 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | (see below) |
+| USB-A 3.0 Keystone Panel Insert ×2 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | (see below) |
+| 4K HDMI Keystone Panel Insert ×1 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | (see below) |
+| Keystone panel inserts total (Order 8209266578349865) | — | $8.26 |
 
 ### Tools & Hardware
 
@@ -270,9 +271,10 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | ESSCable (Broadband Buyer) | $14.30 |
 | Raspberry Pi bundle (eBay) | $69.20 |
 | UGREEN chargers (Amazon UK) | $128.89 |
+| Keystone panel inserts (USB-C ×2, USB-A ×2, HDMI ×1) | $8.26 |
+| Vention USB 2.0 M-M cable ×2 | $3.47 |
 | Screws & bolts (×3 orders) | TBD |
-| Keystone panel inserts + USB cable | TBD |
-| **Grand Total** | **~$575.00 USD + TBD** |
+| **Grand Total** | **~$586.73 USD + TBD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
