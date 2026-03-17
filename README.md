@@ -267,8 +267,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | 860-Piece Computer Screws Assortment Kit (M1.2–M3) | [AliExpress](https://www.aliexpress.com/item/1005007345768217.html) | $4.79 |
 | 150mm Digital Vernier Caliper | [AliExpress](https://www.aliexpress.com/item/1005005671598813.html) | $2.78 |
 | USB-C Power/Voltage/Current Meter KWS-2303C | [AliExpress](https://www.aliexpress.com/item/1005007054185922.html) | $6.60 |
-| 120×120×25mm 5V USB Cooling Fan | [AliExpress](https://www.aliexpress.com/item/1005008543209298.html) | $3.97 |
-| Raspberry Pi 5 Active Cooler w/ PWM Fan (Black) | [AliExpress](https://www.aliexpress.com/item/1005006738849604.html) | $3.02 |
+| 120×120×25mm 5V USB Cooling Fan (rack airflow) | [AliExpress](https://www.aliexpress.com/item/1005008543209298.html) | $3.97 |
+| ~~Raspberry Pi 5 Active Cooler w/ PWM Fan (Black)~~ | ~~[AliExpress](https://www.aliexpress.com/item/1005006738849604.html)~~ | ~~$3.02~~ ⚠️ WRONG — Pi 5 only, not compatible with Pi 4B |
 
 ### Total Spent
 
@@ -282,9 +282,9 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | UGREEN chargers (Amazon UK) | $128.89 |
 | Keystone panel inserts (USB-C ×2, USB-A ×2, HDMI ×1) | $8.26 |
 | Vention USB 2.0 M-M cable ×2 | $3.47 |
-| New tools & hardware (Mar 17) | $33.35 |
+| New tools & hardware (Mar 17) | $30.33 |
 | Screws & bolts (×3 orders) | TBD |
-| **Grand Total** | **~$603.64 USD + TBD** |
+| **Grand Total** | **~$600.62 USD + TBD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
