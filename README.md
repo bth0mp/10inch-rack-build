@@ -257,8 +257,18 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | Hex Socket Cap Head Allen Bolts M6×8mm (20pcs) | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | TBD |
 | M6 Nylon Lock Nuts ×100 | [AliExpress](https://www.aliexpress.com/item/1005006565106519.html) | $8.62 |
 | Velcro Cable Organiser 5M ×2 | [AliExpress](https://www.aliexpress.com/item/1005008165192843.html) | $3.32 |
+| Nylon Zip Ties 4×200mm Black ×100 | [AliExpress](https://www.aliexpress.com/item/1005007294796796.html) | $1.58 |
+| Black Electrical Tape 10M ×5 rolls | [AliExpress](https://www.aliexpress.com/item/1005010114118851.html) | $2.53 |
 | 10×5mm Round Magnets ×200 | [AliExpress](https://www.aliexpress.com/item/1005009558516455.html) | $32.01 |
 | 6×2mm Neodymium Magnets ×50 | [AliExpress](https://www.aliexpress.com/item/1005010158237241.html) | $2.83 |
+| DELIXI Diagonal Cutting Pliers (DHGDC06MXS) | [AliExpress](https://www.aliexpress.com/item/1005006399761109.html) | $3.25 |
+| Electric Wire Pliers 6-inch Pointed Nose | [AliExpress](https://www.aliexpress.com/item/1005009931524198.html) | $3.25 |
+| Magnetic Screw Tray Plate (Purple) | [AliExpress](https://www.aliexpress.com/item/1005006640745223.html) | $1.58 |
+| 860-Piece Computer Screws Assortment Kit (M1.2–M3) | [AliExpress](https://www.aliexpress.com/item/1005007345768217.html) | $4.79 |
+| 150mm Digital Vernier Caliper | [AliExpress](https://www.aliexpress.com/item/1005005671598813.html) | $2.78 |
+| USB-C Power/Voltage/Current Meter KWS-2303C | [AliExpress](https://www.aliexpress.com/item/1005007054185922.html) | $6.60 |
+| 120×120×25mm 5V USB Cooling Fan | [AliExpress](https://www.aliexpress.com/item/1005008543209298.html) | $3.97 |
+| Raspberry Pi 5 Active Cooler w/ PWM Fan (Black) | [AliExpress](https://www.aliexpress.com/item/1005006738849604.html) | $3.02 |
 
 ### Total Spent
 
@@ -272,8 +282,9 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | UGREEN chargers (Amazon UK) | $128.89 |
 | Keystone panel inserts (USB-C ×2, USB-A ×2, HDMI ×1) | $8.26 |
 | Vention USB 2.0 M-M cable ×2 | $3.47 |
+| New tools & hardware (Mar 17) | $33.35 |
 | Screws & bolts (×3 orders) | TBD |
-| **Grand Total** | **~$570.29 USD + TBD** |
+| **Grand Total** | **~$603.64 USD + TBD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
@@ -319,4 +330,4 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 ---
 
-*Documentation maintained by Janet 🐟 — last updated 15 March 2026 16:43 GMT*
+*Documentation maintained by Janet 🐟 — last updated 17 March 2026*
