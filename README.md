@@ -217,7 +217,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | ZoeRax CAT6A STP Keystone Couplers ×12 (female-to-female) | [AliExpress](https://www.aliexpress.com/item/1005006532881465.html) | $23.64 |
 | ~~Linkwylan CAT6A STP Keystone Jacks ×12~~ | ~~[AliExpress](https://www.aliexpress.com/item/1005005844843325.html)~~ | ~~$40.08~~ CANCELED |
 | ESSCable ERT-600-HV 0.25m Purple CAT6 ×10 | [Broadband Buyer](https://www.broadbandbuyer.com/products/38577-esscable-ert-600-hv-10x/) | $14.30 |
-| VEnTIOn CAT6 Coloured Ethernet Cables | [AliExpress](https://www.aliexpress.com/item/1005002524876303.html) | $7.34 |
+| VEnTIOn CAT6 Coloured Ethernet Cables (original order) | [AliExpress](https://www.aliexpress.com/item/1005002524876303.html) | $7.34 |
+| Vention CAT6 Purple 1M ×2 (additional) | [AliExpress](https://www.aliexpress.com/item/1005002524876303.html) | $2.97 |
 
 ### OptiPlex Power
 
@@ -245,6 +246,14 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | 4K HDMI Keystone Panel Insert ×1 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | (see below) |
 | Keystone panel inserts total (Order 8209266578349865) | — | $8.26 |
 
+### Lighting
+
+| Item | Link | Price |
+|---|---|---|
+| Zigbee RGB LED Neon Strip 5m — Tuya (USA plug ⚠️ needs UK adapter) | [AliExpress](https://www.aliexpress.com/item/1005011774324120.html) | $21.90 |
+
+> ⚠️ USA power plug — needs a US→UK adapter or replacement UK plug before use.
+
 ### Tools & Hardware
 
 | Item | Link | Price |
@@ -261,13 +270,15 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | Black Electrical Tape 10M ×5 rolls | [AliExpress](https://www.aliexpress.com/item/1005010114118851.html) | $2.53 |
 | 10×5mm Round Magnets ×200 | [AliExpress](https://www.aliexpress.com/item/1005009558516455.html) | $32.01 |
 | 6×2mm Neodymium Magnets ×50 | [AliExpress](https://www.aliexpress.com/item/1005010158237241.html) | $2.83 |
+| 3D Printer Glue Sticks 24×98mm ×3 (hotbed adhesion) | [AliExpress](https://www.aliexpress.com/item/1005006503818471.html) | $2.26 |
 | DELIXI Diagonal Cutting Pliers (DHGDC06MXS) | [AliExpress](https://www.aliexpress.com/item/1005006399761109.html) | $3.25 |
 | Electric Wire Pliers 6-inch Pointed Nose | [AliExpress](https://www.aliexpress.com/item/1005009931524198.html) | $3.25 |
 | Magnetic Screw Tray Plate (Purple) | [AliExpress](https://www.aliexpress.com/item/1005006640745223.html) | $1.58 |
 | 860-Piece Computer Screws Assortment Kit (M1.2–M3) | [AliExpress](https://www.aliexpress.com/item/1005007345768217.html) | $4.79 |
 | 150mm Digital Vernier Caliper | [AliExpress](https://www.aliexpress.com/item/1005005671598813.html) | $2.78 |
 | USB-C Power/Voltage/Current Meter KWS-2303C | [AliExpress](https://www.aliexpress.com/item/1005007054185922.html) | $6.60 |
-| 120×120×25mm 5V USB Cooling Fan (rack airflow) | [AliExpress](https://www.aliexpress.com/item/1005008543209298.html) | $3.97 |
+| 120×120×25mm 5V USB Cooling Fan (rack airflow) ×2 | [AliExpress](https://www.aliexpress.com/item/1005008543209298.html) | $7.94 |
+| 80×80×10mm 5V USB Ultra-thin Cooling Fan ×2 | [AliExpress](https://www.aliexpress.com/item/33022096969.html) | $8.39 |
 | ~~Raspberry Pi 5 Active Cooler w/ PWM Fan (Black)~~ | ~~[AliExpress](https://www.aliexpress.com/item/1005006738849604.html)~~ | ~~$3.02~~ ⚠️ WRONG — Pi 5 only, not compatible with Pi 4B |
 
 ### Total Spent
@@ -282,9 +293,10 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | UGREEN chargers (Amazon UK) | $128.89 |
 | Keystone panel inserts (USB-C ×2, USB-A ×2, HDMI ×1) | $8.26 |
 | Vention USB 2.0 M-M cable ×2 | $3.47 |
-| New tools & hardware (Mar 17) | $30.33 |
+| New tools & hardware (Mar 17 batch 1) | $30.33 |
+| New items (Mar 17 batch 2): fans, glue, LED strip, cables | $39.49 |
 | Screws & bolts (×3 orders) | TBD |
-| **Grand Total** | **~$600.62 USD + TBD** |
+| **Grand Total** | **~$640.11 USD + TBD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
@@ -330,4 +342,4 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 ---
 
-*Documentation maintained by Janet 🐟 — last updated 17 March 2026*
+*Documentation maintained by Janet 🐟 — last updated 17 March 2026 18:04 GMT*
