@@ -43,6 +43,7 @@ A fully documented 10-inch homelab rack housing four Dell OptiPlex Micro servers
 | OptiPlex 3060 Rear Support Bracket for 10" Rack | [2573325](https://makerworld.com/en/models/2573325-optiplex-3060-rear-support-bracket-for-10-rack) | 1 | Rear support for OptiPlex row |
 | KeepLiNK 10-Port Switch 1U Rack Mount | [1366063](https://makerworld.com/en/models/1366063-keeplink-10-port-gigabit-switch-1u-10-rack-mount) | 1 | Dedicated mount for the KeepLiNK |
 | Keystone Patch Panel 2–3U | [2154991](https://makerworld.com/en/models/2154991-patch-keystones-panel-2-3u-for-10-inch-kws-rack) | 1 | Holds 12× keystone couplers |
+| 1U Keystone Patch Panel (12-port) | [576762](https://makerworld.com/en/models/576762-10in-server-rack-patch-panels-1u-12-keystone-jacks) | 1 | Alternative 1U panel option |
 | 2U Power Supplies Shelf | [2383010](https://makerworld.com/en/models/2383010-2u-power-supplies-shelf-for-kws-rack) | 1 | Holds UGREEN GaN chargers |
 | 2U Rack Control & Display Module | [2233953](https://makerworld.com/en/models/2233953-2u-rack-control-display-module) | 1 | Pi 4B + Wisecoco display + keystone ports |
 | Recessed 120mm Fan Top Plate | [2411553](https://makerworld.com/en/models/2411553-recessed-120mm-fan-top-plate-for-kws-10in-rack) | 1? | Exhaust fan mount for top of rack — **maybe** |
