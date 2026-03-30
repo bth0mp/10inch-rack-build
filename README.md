@@ -29,13 +29,26 @@ A fully documented 10-inch homelab rack housing four Dell OptiPlex Micro servers
 
 ---
 
-## 🏗️ Rack Design
+## 🏗️ Rack Design & 3D Printed Parts
 
-**Rack:** [KWS Rack V2 — Heavy Duty 10-Inch Homelab Rack](https://makerworld.com/en/models/2139130-kws-rack-v-2-heavy-duty-10-inch-homelab-rack) (3D printed)
+**Rack frame:** [KWS Rack V2 — Heavy Duty 10-Inch Homelab Rack](https://makerworld.com/en/models/2139130-kws-rack-v-2-heavy-duty-10-inch-homelab-rack)
 
-**OptiPlex mounts:** [Lenovo Tiny Vertical Holder for DeskPi 10-Inch Rack](https://makerworld.com/en/models/1216152-lenovo-tiny-vertical-holder-for-deskpi-10-rack) (3D printed — compatible with Dell OptiPlex Micro)
+### 🖨️ Print List
 
-**Keystone patch panel:** [Patch Keystones Panel 2–3U for 10-Inch KWS Rack](https://makerworld.com/en/models/2154991-patch-keystones-panel-2-3u-for-10-inch-kws-rack) (3D printed)
+| Part | MakerWorld Link | Qty | Notes |
+|---|---|---|---|
+| KWS Rack V2 (frame) | [2139130](https://makerworld.com/en/models/2139130-kws-rack-v-2-heavy-duty-10-inch-homelab-rack) | 1 | Main rack structure — check model page for sub-part counts |
+| Reinforced KWS Rack V2 Connector (high racks) | [2574930](https://makerworld.com/en/models/2574930-reinforced-kws-rack-v2-connector-high-racks) | TBD | Stronger connectors for tall builds |
+| 10" Rack OptiPlex Shelf + Rear Bracket Support | [2116002](https://makerworld.com/en/models/2116002-10-rack-optiplex-shelf-rear-bracket-support) | 1 | Front shelf for OptiPlexes |
+| OptiPlex 3060 Rear Support Bracket for 10" Rack | [2573325](https://makerworld.com/en/models/2573325-optiplex-3060-rear-support-bracket-for-10-rack) | 1 | Rear support for OptiPlex row |
+| KeepLiNK 10-Port Switch 1U Rack Mount | [1366063](https://makerworld.com/en/models/1366063-keeplink-10-port-gigabit-switch-1u-10-rack-mount) | 1 | Dedicated mount for the KeepLiNK |
+| Keystone Patch Panel 2–3U | [2154991](https://makerworld.com/en/models/2154991-patch-keystones-panel-2-3u-for-10-inch-kws-rack) | 1 | Holds 12× keystone couplers |
+| 2U Power Supplies Shelf | [2383010](https://makerworld.com/en/models/2383010-2u-power-supplies-shelf-for-kws-rack) | 1 | Holds UGREEN GaN chargers |
+| 2U Rack Control & Display Module | [2233953](https://makerworld.com/en/models/2233953-2u-rack-control-display-module) | 1 | Pi 4B + Wisecoco display + keystone ports |
+| Recessed 120mm Fan Top Plate | [2411553](https://makerworld.com/en/models/2411553-recessed-120mm-fan-top-plate-for-kws-10in-rack) | 1? | Exhaust fan mount for top of rack — **maybe** |
+| Cable Management Mounts | [2233529](https://makerworld.com/en/models/2233529-server-rack-cable-management-mounts) | TBD | Clip-on cable routing for back panel |
+
+> ~~Lenovo Tiny Vertical Holder ([1216152](https://makerworld.com/en/models/1216152-lenovo-tiny-vertical-holder-for-deskpi-10-rack))~~ — replaced by dedicated OptiPlex shelf + rear bracket above.
 
 ### 10-Inch Rack Specs
 - Usable internal width: ~220mm (~210mm safe with tolerance)
