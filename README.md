@@ -55,15 +55,6 @@ A fully documented 10-inch homelab rack housing four Dell OptiPlex Micro servers
 - Rail hole spacing: 236.5mm
 - Standard 1U height: 44.45mm
 
-### OptiPlex Holder Compatibility
-| Dimension | Lenovo ThinkCentre Tiny | Dell OptiPlex Micro |
-|---|---|---|
-| Height | 183mm | 183mm ✅ |
-| Depth | 179mm | 178mm ✅ |
-| Thickness | 34.5mm | 36mm (~1.5mm diff) ✅ |
-
-> ⚠️ Print one first and test fit before printing all four.
-
 ---
 
 ## 🌐 Network Architecture
