@@ -250,7 +250,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 | Item | Link | Price |
 |---|---|---|
-| Zigbee RGB LED Neon Strip 5m — Tuya (USA plug ⚠️ needs UK adapter) | [AliExpress](https://www.aliexpress.com/item/1005011774324120.html) | $21.90 |
+| ~~Zigbee RGB LED Neon Strip 5m — Tuya (USA plug)~~ | ~~[AliExpress](https://www.aliexpress.com/item/1005011774324120.html)~~ | ~~$21.90~~ replaced by 2m |
+| Zigbee RGB LED Neon Strip 2m — Tuya (USA plug ⚠️ needs UK adapter) | [AliExpress](https://www.aliexpress.com/item/1005011774324120.html) | $21.53 |
 
 > ⚠️ USA power plug — needs a US→UK adapter or replacement UK plug before use.
 
@@ -261,10 +262,11 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | 43pc Magnetic Screwdriver Set | [AliExpress](https://www.aliexpress.com/item/1005007494840464.html) | $33.10 |
 | Heat Set Thread Insert Kit (soldering iron kit) | [AliExpress](https://www.aliexpress.com/item/1005007550647561.html) | $11.16 |
 | Brass Hot Melt Insert Nuts M5 ×30pcs ×6 bags | [AliExpress](https://www.aliexpress.com/item/1005003582355741.html) | $19.86 |
-| Phillips Truss Head Screws M5×10 (20pcs) | [AliExpress](https://www.aliexpress.com/item/1005004681098987.html) | TBD |
-| Hex Socket Cap Head Allen Bolts M6×10mm (20pcs) | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | TBD |
-| Hex Socket Cap Head Allen Bolts M6×8mm (20pcs) | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | TBD |
-| M6 Nylon Lock Nuts ×100 | [AliExpress](https://www.aliexpress.com/item/1005006565106519.html) | $8.62 |
+| Phillips Truss Head Screws M4×12 (50pcs) | [AliExpress](https://www.aliexpress.com/item/1005004681098987.html) | $3.89 |
+| Hex Socket Cap Head Allen Bolts M6×10mm (20pcs) ×3 | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | $9.30 |
+| Hex Socket Cap Head Allen Bolts M6×8mm (20pcs) ×3 | [AliExpress](https://www.aliexpress.com/item/1005009393815442.html) | $8.82 |
+| M6 Nylon Lock Nuts ×100 | [AliExpress](https://www.aliexpress.com/item/1005006565106519.html) | $8.57 |
+| M4 Nylon Lock Nuts ×100 | [AliExpress](https://www.aliexpress.com/item/1005006565106519.html) | $6.48 |
 | Velcro Cable Organiser 5M ×2 | [AliExpress](https://www.aliexpress.com/item/1005008165192843.html) | $3.32 |
 | Nylon Zip Ties 4×200mm Black ×100 | [AliExpress](https://www.aliexpress.com/item/1005007294796796.html) | $1.58 |
 | Black Electrical Tape 10M ×5 rolls | [AliExpress](https://www.aliexpress.com/item/1005010114118851.html) | $2.53 |
@@ -278,7 +280,10 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | 150mm Digital Vernier Caliper | [AliExpress](https://www.aliexpress.com/item/1005005671598813.html) | $2.78 |
 | USB-C Power/Voltage/Current Meter KWS-2303C | [AliExpress](https://www.aliexpress.com/item/1005007054185922.html) | $6.60 |
 | 120×120×25mm 5V USB Cooling Fan (rack airflow) ×2 | [AliExpress](https://www.aliexpress.com/item/1005008543209298.html) | $7.94 |
-| 80×80×10mm 5V USB Ultra-thin Cooling Fan ×2 | [AliExpress](https://www.aliexpress.com/item/33022096969.html) | $8.39 |
+| 80×80×10mm 5V USB Ultra-thin Cooling Fan ×2 (100cm cable) | [AliExpress](https://www.aliexpress.com/item/33022096969.html) | $8.39 |
+| 80×80×10mm 5V USB Ultra-thin Cooling Fan ×2 (30cm cable) | [AliExpress](https://www.aliexpress.com/item/33022096969.html) | $9.02 |
+| USB A Male-to-Male 0.5m Cable ×4 | [AliExpress](https://www.aliexpress.com/item/1005006854476947.html) | $4.96 |
+| USB 3.0 A Keystone Insert (Black) 2pcs ×2 | [AliExpress](https://www.aliexpress.com/item/1005009430447241.html) | $5.04 |
 | ~~Raspberry Pi 5 Active Cooler w/ PWM Fan (Black)~~ | ~~[AliExpress](https://www.aliexpress.com/item/1005006738849604.html)~~ | ~~$3.02~~ ⚠️ WRONG — Pi 5 only, not compatible with Pi 4B |
 
 ### Total Spent
@@ -295,8 +300,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | Vention USB 2.0 M-M cable ×2 | $3.47 |
 | New tools & hardware (Mar 17 batch 1) | $30.33 |
 | New items (Mar 17 batch 2): fans, glue, LED strip, cables | $39.49 |
-| Screws & bolts (×3 orders) | TBD |
-| **Grand Total** | **~$640.11 USD + TBD** |
+| Mar 30 batch: bolts, lock nuts, fans, USB cables, keystones, LED strip | $77.61 |
+| **Grand Total** | **~$717.72 USD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
@@ -342,4 +347,4 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 ---
 
-*Documentation maintained by Janet 🐟 — last updated 17 March 2026 18:04 GMT*
+*Documentation maintained by Janet 🐟 — last updated 30 March 2026*
