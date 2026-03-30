@@ -250,10 +250,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 
 | Item | Link | Price |
 |---|---|---|
-| ~~Zigbee RGB LED Neon Strip 5m — Tuya (USA plug)~~ | ~~[AliExpress](https://www.aliexpress.com/item/1005011774324120.html)~~ | ~~$21.90~~ replaced by 2m |
-| Zigbee RGB LED Neon Strip 2m — Tuya (USA plug ⚠️ needs UK adapter) | [AliExpress](https://www.aliexpress.com/item/1005011774324120.html) | $21.53 |
-
-> ⚠️ USA power plug — needs a US→UK adapter or replacement UK plug before use.
+| Zigbee RGB LED Neon Strip 5m — Tuya (USA plug) | [AliExpress](https://www.aliexpress.com/item/1005011774324120.html) | $21.90 |
+| Zigbee RGB LED Neon Strip 2m — Tuya (USA plug) | [AliExpress](https://www.aliexpress.com/item/1005011774324120.html) | $21.53 |
 
 ### Tools & Hardware
 
@@ -300,8 +298,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | Vention USB 2.0 M-M cable ×2 | $3.47 |
 | New tools & hardware (Mar 17 batch 1) | $30.33 |
 | New items (Mar 17 batch 2): fans, glue, LED strip, cables | $39.49 |
-| Mar 30 batch: bolts, lock nuts, fans, USB cables, keystones, LED strip | $77.61 |
-| **Grand Total** | **~$717.72 USD** |
+| Mar 30 batch: bolts, lock nuts, fans, USB cables, keystones, LED strip | $99.51 |
+| **Grand Total** | **~$739.62 USD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
