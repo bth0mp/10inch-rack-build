@@ -233,6 +233,7 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | UGREEN order total (Amazon, Order #204-8358283-3717925) | — | $128.89 |
 | KYMISON USB-C to Dell 4.5×3.0mm Adapter ×4 | [AliExpress](https://www.aliexpress.com/item/1005001603542560.html) | $9.20 |
 | Toocki USB-C to USB-C 0.25m Black ×4 | [AliExpress](https://www.aliexpress.com/item/1005006844576361.html) | $6.20 |
+| UGREEN USB-C to USB-C 100W 5A 0.5m ×4 (PD e-marker) | [Amazon UK](https://www.amazon.co.uk/dp/B0BFKGZ9ZG) | $27.78 |
 
 ### Display & Raspberry Pi
 
@@ -303,7 +304,8 @@ chromium-browser --kiosk --noerrdialogs --disable-infobars http://hades-vm:7575
 | New tools & hardware (Mar 17 batch 1) | $30.33 |
 | New items (Mar 17 batch 2): fans, glue, LED strip, cables | $39.49 |
 | Mar 30 batch: bolts, lock nuts, fans, USB cables, keystones, LED strip | $99.51 |
-| **Grand Total** | **~$739.62 USD** |
+| UGREEN USB-C to USB-C 100W cables ×4 (Amazon UK) | $27.78 |
+| **Grand Total** | **~$767.40 USD** |
 
 > ❌ Canceled: Toocki 1m Purple USB-C ×4 (-$9.16)
 
